@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Measure3d</string>
+   <string>3D Measure Points - מדידה תלת מימדית</string>
   </property>
   <widget class="QDialogButtonBox" name="button_box">
    <property name="geometry">
@@ -39,7 +39,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Z field</string>
+    <string>Z (ערך)</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -60,7 +60,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Default = 'z'</string>
+    <string>ערך דיפולטיבי = 'z'</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
@@ -83,7 +83,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Select two points, insert the filed name that store the z value (leave it &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;empty to use the default value 'z').&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;בחר שני נקודות על המפה ,לאחר מכן הכנס את הערך (השאר כך &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;ריק כדי להשתמש בערך הדיפולטיבי).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox">
@@ -117,7 +117,7 @@
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;and ignore Z field&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ודחה את הערך הדיפולטיבי של z&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
@@ -130,7 +130,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Use geometry Z value</string>
+    <string>השתמש בערך הגיאומטרי</string>
    </property>
   </widget>
  </widget>
