@@ -1,0 +1,31 @@
+
+[general]
+name=Measure 3D Points
+qgisMinimumVersion=3.0
+description=Measure3d
+version=0.1
+author=Meno Rey & Yana Anael Chichkin
+email=None
+
+about=Plugin to Measure the 3D distance between two selected points within the Z Vector Field
+
+tracker=
+repository=
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
